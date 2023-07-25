@@ -14,6 +14,11 @@ public class Rota {
     private double qtdCombustivel = 0.0;
 
     public void planejarDia() {
+        /*
+         * Desenvolvido por Emmanuel Cosme Martins Bento.
+         * A atividade se encontra hospedado no GitHub
+         * GitHub: https://github.com/EmmanuelMartins21/EstudosJava/tree/master/AE01_Prog1
+         */
         double vlrLitroDiesel;
         Scanner scn = new Scanner(System.in);
 
