@@ -42,15 +42,18 @@ public class App {
     }
 
     public static void CreateContact() {
+        Contato novoContato = new Contato();
         Scanner scan = new Scanner(System.in);
+
         System.out.print("Nome: ");
-        String nome =scan.nextLine();
-        
+        novoContato.setNome(scan.nextLine());
+
         System.out.print("Telefone: ");
-        String telefone = scan.nextLine();
+        novoContato.setTelefone(scan.nextLine());
+        
         System.out.print("Email: ");
-        String email = scan.nextLine();
-        Contato novoContato = new Contato(nome, telefone, email);
+        novoContato.setEmail(scan.nextLine());
+       
         listaContatos.add(novoContato);
     }
 
@@ -58,6 +61,7 @@ public class App {
         System.out.print("Nome do contato a ser removido: ");
         Scanner scan = new Scanner(System.in);
         String nomeRemover = scan.nextLine();
+        
         Contato contatoRemover = null;
         for (Contato c : listaContatos) {
             if (c.getNome().equalsIgnoreCase(nomeRemover)) {

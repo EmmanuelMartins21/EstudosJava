@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/AE01_Prog1/nbproject/private/
+/AE01_Prog1/build/
