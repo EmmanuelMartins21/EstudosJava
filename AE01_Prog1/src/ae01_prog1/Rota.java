@@ -12,7 +12,7 @@ public class Rota {
     private final double consumoMedio = 2.5;
     private double vlrTotal = 0.0;
     private double qtdCombustivel = 0.0;
-
+    
     public void planejarDia() {
         /*
          * Desenvolvido por Emmanuel Cosme Martins Bento.
